@@ -8,3 +8,5 @@ var imageryLayers = viewer.imageryLayers;
 imageryLayers.addImageryProvider(new Cesium.ArcGisMapServerImageryProvider({
     url : 'http://www.ga.gov.au/gis/rest/services/earth_science/GA_Surface_Geology_of_Australia_WM/MapServer'
 }));
+
+viewer.dataSources.add(Cesium.KmlDataSource.load(C:/Users/user/Documents/GitHub/20150630test/cesium-starter-app-master/KML/JPN_adm2.shp.kml'));
